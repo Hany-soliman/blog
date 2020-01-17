@@ -4,10 +4,14 @@
   "description": "Hany",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Hany Soliman",
   "license": "ISC",
+  "engines": {
+  "node": "v12.14.0"
+},
   "dependencies": {
     "body-parser": "^1.19.0",
     "ejs": "^3.0.1",
